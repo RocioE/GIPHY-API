@@ -1,0 +1,13 @@
+/* .button{
+    margin: 0 20px 0 20px;
+}
+
+.h1 {
+    text-align: center;
+    padding: 20px;
+    font-family: Franklin Gothic Medium;
+} */
+/* since using Bootstrap, body out of the div container needs to be colored in this body */
+body {
+background-color: rgb(247, 247, 76);
+}

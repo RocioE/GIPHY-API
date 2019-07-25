@@ -53,10 +53,13 @@ function displayMovieInfo(moveInput) {
   });
 
 }
+
+
+//just like the click-on button//
 $(document).on("click",".gif", function() {
-    var state  = $(this).attr("data-state")
+    var state  = $(this).attr("data-state")  //storing the specific 5 movies/////
     //console.log(state)
-    if(state === "still"){
+    if(state === "still"){  //need to do conditonal IF not LET!!!////
       var animate = $(this).attr("data-animate")
       $(this).attr("src",animate )
       $(this).attr("data-state","animate" )
